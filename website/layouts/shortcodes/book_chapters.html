@@ -1,6 +1,5 @@
 <ul class="chapters-list">
-  {{ range where (where .Site.Pages "Section" "eveil-de-fork")
-  "Params.chapter_start" true }}
+  {{ range where .Site.Pages "Params.chapter_start" true }}
   <li>
     <a href="{{ .RelPermalink }}">{{ .Params.subtitle }}</a>
     {{ if .Params.summary }}

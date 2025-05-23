@@ -14,13 +14,12 @@
     >
     {{ end }} {{ else }}
     <!-- Trouver le chapitre précédent -->
-    {{ $allChapters := where (where .Site.Pages "Section" "eveil-de-fork")
-    "Params.chapter_start" true }} {{ $allChapters := sort $allChapters "Weight"
-    }} {{ $currentChapterIndex := -1 }} {{ range $index, $chapter :=
-    $allChapters }} {{ if eq (path.Dir $chapter.File.Path) $currentDir }} {{
-    $currentChapterIndex = $index }} {{ end }} {{ end }} {{ if gt
-    $currentChapterIndex 0 }} {{ $prevChapter := index $allChapters (sub
-    $currentChapterIndex 1) }}
+    {{ $allChapters := where .Site.Pages "Params.chapter_start" true }} {{
+    $allChapters := sort $allChapters "Weight" }} {{ $currentChapterIndex := -1
+    }} {{ range $index, $chapter := $allChapters }} {{ if eq (path.Dir
+    $chapter.File.Path) $currentDir }} {{ $currentChapterIndex = $index }} {{
+    end }} {{ end }} {{ if gt $currentChapterIndex 0 }} {{ $prevChapter := index
+    $allChapters (sub $currentChapterIndex 1) }}
     <a href="{{ $prevChapter.RelPermalink }}" class="prev-page"
       >← Chapitre précédent</a
     >
@@ -31,13 +30,12 @@
     <a href="{{ $nextPage.RelPermalink }}" class="next-page">Page suivante →</a>
     {{ else }}
     <!-- Trouver le chapitre suivant -->
-    {{ $allChapters := where (where .Site.Pages "Section" "eveil-de-fork")
-    "Params.chapter_start" true }} {{ $allChapters := sort $allChapters "Weight"
-    }} {{ $currentChapterIndex := -1 }} {{ range $index, $chapter :=
-    $allChapters }} {{ if eq (path.Dir $chapter.File.Path) $currentDir }} {{
-    $currentChapterIndex = $index }} {{ end }} {{ end }} {{ if lt
-    $currentChapterIndex (sub (len $allChapters) 1) }} {{ $nextChapter := index
-    $allChapters (add $currentChapterIndex 1) }}
+    {{ $allChapters := where .Site.Pages "Params.chapter_start" true }} {{
+    $allChapters := sort $allChapters "Weight" }} {{ $currentChapterIndex := -1
+    }} {{ range $index, $chapter := $allChapters }} {{ if eq (path.Dir
+    $chapter.File.Path) $currentDir }} {{ $currentChapterIndex = $index }} {{
+    end }} {{ end }} {{ if lt $currentChapterIndex (sub (len $allChapters) 1) }}
+    {{ $nextChapter := index $allChapters (add $currentChapterIndex 1) }}
     <a href="{{ $nextChapter.RelPermalink }}" class="next-page"
       >Chapitre suivant →</a
     >
