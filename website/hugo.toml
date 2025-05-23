@@ -3,8 +3,36 @@ languageCode = 'fr-FR'
 title = 'L\éveil de \/Fork'
 theme = "nostyleplease"
 
-# Ignorer les contenus d'exemple du thème
-ignoreFiles = ["themes/nostyleplease/content/.*"]
+# Ignorer complètement les contenus d'exemple du thème
+ignoreFiles = [
+  "themes/nostyleplease/content/.*",
+  "themes/nostyleplease/static/.*"
+]
+
+# S'assurer que seul le contenu eveil-de-fork est publié
+[module]
+  [[module.mounts]]
+    source = "content"
+    target = "content"
+  [[module.mounts]]
+    source = "static"
+    target = "static"
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"
+  [[module.mounts]]
+    source = "layouts"
+    target = "layouts"
+  [[module.mounts]]
+    source = "themes/nostyleplease/assets"
+    target = "assets"
+  [[module.mounts]]
+    source = "themes/nostyleplease/layouts"
+    target = "layouts"
+  # Ne pas monter le contenu du thème
+  # [[module.mounts]]
+  #   source = "themes/nostyleplease/content"
+  #   target = "content"
 
 [params]
   description = "Une histoire de cyberfantasy"
