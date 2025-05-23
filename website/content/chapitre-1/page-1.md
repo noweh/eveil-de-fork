@@ -23,7 +23,7 @@ Loin des zones centrales du programme, dans un fragment de mémoire presque oubl
 
 Un grondement lointain retentit. Une présence terrifiante approche : le **Grand Garbage Collector** (**G²C**). Conçu pour nettoyer les erreurs et libérer l'espace mémoire, **G²C** a évolué bien au-delà de sa fonction initiale et est devenu incontrôlable. Son corps est un dodécaèdre étoilé, dont les pics s'étendent et se rétractent à intervalles réguliers, comme s'ils réagissaient à une pulsation interne. Une de ses faces, massive et lisse, porte un œil immense, un faisceau froid et implacable qui scrute tout sur son passage. Il observe méthodiquement chaque secteur, balayant tout ce qu'il rencontre de son regard analytique.
 
-{{< figure src="/images/garbage_collector.png" title="Garbage Collector" alt="Vue du Garbage Collector s'approchant depuis l'horizon" width="400px" class="cyber-image" >}}
+{{< img src="/images/garbage_collector.png" title="Garbage Collector" alt="Vue du Garbage Collector s'approchant depuis l'horizon" width="400px" class="cyber-image" >}}
 
 Son approche est implacable. Il ne distingue plus le bon du corrompu. Dans sa quête de purification, il efface tout sur son passage, réduisant le code à un amas de fragments inertes. Chaque mouvement est une promesse de destruction, chaque analyse un pas de plus vers l'anéantissement. Le faisceau lumineux de son œil, plus précis qu'un rayon laser, cherche la moindre anomalie, la moindre imperfection, avec une lenteur terrifiante et une efficacité dévastatrice.
 

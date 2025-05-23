@@ -20,7 +20,7 @@ Deux silhouettes émergent lentement de l’ombre. Leurs contours vibrent, fragm
 
 Des symboles gravés sur leur surface s’effacent et réapparaissent en boucle : **++**, **--**, et parfois **[]**,vestiges d'un ancien temps qui se meurt, témoins d'une gloire oubliée. Elles semblent fusionnées au bâtiment, comme si elles en étaient une extension malade. Elles semblent porter les vestiges d'une gloire passée : des symboles partiellement effacés, des fragments de code glorieux aujourd'hui déformés.
 
-{{< figure src="/images/variables.png" title="Variables" alt="Vue de deux entités perdues dans le labyrinthe" width="400px" class="cyber-image" >}}
+{{< img src="/images/variables.png" title="Variables" alt="Vue de deux entités perdues dans le labyrinthe" width="400px" class="cyber-image" >}}
 
 **<"** ++ **Jadis... on était fiers. Objets... Membres de la faction Array... On prônait la liberté... la flexibilité** ++ **Traverser ce passage... un jeu d’enfant.** ++ **">**
 

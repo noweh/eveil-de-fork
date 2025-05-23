@@ -1,0 +1,30 @@
+{{ $src := .Get "src" }} {{ $alt := .Get "alt" | default "" }} {{ $class := .Get
+"class" | default "" }} {{ $width := .Get "width" | default "" }} {{ $height :=
+.Get "height" | default "" }} {{ $imagePath := printf "%s%s" .Site.BaseURL $src
+}}
+
+<img
+  src="{{ $imagePath }}"
+  alt="{{ $alt }}"
+  {{
+  if
+  $class
+  }}class="{{ $class }}"
+  {{
+  end
+  }}
+  {{
+  if
+  $width
+  }}width="{{ $width }}"
+  {{
+  end
+  }}
+  {{
+  if
+  $height
+  }}height="{{ $height }}"
+  {{
+  end
+  }}
+/>
