@@ -11,3 +11,8 @@
 /results/
 /.run/
 .env
+
+# Hugo
+website/public/
+website/resources/_gen/
+.hugo_build.lock
