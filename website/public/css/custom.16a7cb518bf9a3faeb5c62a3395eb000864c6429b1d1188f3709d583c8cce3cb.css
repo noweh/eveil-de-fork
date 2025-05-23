@@ -1,0 +1,81 @@
+/* CSS personnalisé pour l'ambiance cyberpunk */
+
+/* Variables pour les couleurs */
+:root {
+  --neon-green: #00ff66; /* Vert néon */
+  --neon-blue: #01c8ee; /* Bleu néon */
+  --neon-magenta: #ff00ff; /* Magenta néon */
+  --text-color: #b4e1e7; /* Bleu-gris clair pour le texte */
+  --dark-bg: #050505; /* Fond très sombre */
+}
+
+/* Fond plus sombre */
+body {
+  background-color: var(--dark-bg);
+  color: var(--text-color);
+}
+
+/* Effet néon sur les titres h1 */
+h1 {
+  color: var(--neon-green);
+  text-shadow: 0 0 5px var(--neon-green);
+  text-align: center;
+}
+
+/* Effet néon sur les titres h2 */
+h2 {
+  color: var(--neon-blue);
+  text-shadow: 0 0 4px var(--neon-blue);
+  text-align: center;
+}
+
+/* Style pour les liens */
+a {
+  color: var(--neon-magenta);
+  text-decoration: none;
+  transition: text-shadow 0.3s ease;
+}
+
+a:hover {
+  text-shadow: 0 0 8px var(--neon-magenta);
+}
+
+/* Style pour les blocs de code */
+pre {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-left: 3px solid var(--neon-green);
+  padding: 1em;
+  overflow-x: auto;
+}
+
+code {
+  color: var(--neon-green);
+}
+
+/* Style pour les citations */
+blockquote {
+  border-left: 3px solid var(--neon-blue);
+  padding-left: 1em;
+  font-style: italic;
+  color: var(--neon-blue);
+}
+
+/* Séparateurs */
+hr,
+.separator {
+  border: none;
+  text-align: center;
+  margin: 2em 0;
+}
+
+hr:before,
+.separator:before {
+  content: "* * *";
+  color: var(--neon-magenta);
+  letter-spacing: 0.5em;
+}
+
+/* Style pour les éléments en strong/bold */
+strong {
+  color: var(--neon-green);
+}

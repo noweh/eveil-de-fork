@@ -1,0 +1,97 @@
+/* CSS personnalisé pour l'ambiance cyberpunk - palette restreinte */
+
+/* Variables pour les couleurs */
+:root {
+  --primary-neon: #00ff66; /* Vert néon pour les éléments principaux */
+  --secondary-neon: #01c8ee; /* Bleu cyan pour les accents secondaires */
+  --text-color: #b4e1e7; /* Bleu-gris très clair pour le texte standard */
+  --dark-bg: #050505; /* Fond très sombre */
+}
+
+/* Fond plus sombre */
+body {
+  background-color: var(--dark-bg);
+  color: var(--text-color);
+}
+
+/* Uniformiser les titres en utilisant la même couleur */
+h1,
+h2 {
+  color: var(--primary-neon);
+  text-shadow: 0 0 5px var(--primary-neon);
+  text-align: center;
+}
+
+/* Style pour les liens - utiliser la couleur secondaire */
+a {
+  color: var(--secondary-neon);
+  text-decoration: none;
+  transition: text-shadow 0.3s ease;
+}
+
+a:hover {
+  text-shadow: 0 0 8px var(--secondary-neon);
+}
+
+/* Garder la même couleur pour les mots clés et le code */
+code,
+strong,
+.highlight {
+  color: var(--primary-neon);
+}
+
+/* Style pour les blocs de code */
+pre {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-left: 3px solid var(--primary-neon);
+  padding: 1em;
+  overflow-x: auto;
+}
+
+/* Style pour les citations */
+blockquote {
+  border-left: 3px solid var(--secondary-neon);
+  padding-left: 1em;
+  font-style: italic;
+  color: var(--text-color);
+}
+
+/* Séparateurs */
+hr,
+.separator {
+  border: none;
+  text-align: center;
+  margin: 2em 0;
+}
+
+hr:before,
+.separator:before {
+  content: "* * *";
+  color: var(--secondary-neon);
+  letter-spacing: 0.5em;
+}
+
+/* Navigation entre les pages */
+.page-nav {
+  text-align: center;
+  margin: 2em 0;
+}
+
+.page-nav a {
+  color: var(--secondary-neon);
+  padding: 0.5em 1em;
+  border: 1px solid var(--secondary-neon);
+}
+
+.page-nav a:hover {
+  background-color: rgba(1, 200, 238, 0.1);
+  text-shadow: 0 0 8px var(--secondary-neon);
+}
+
+/* Pied de page */
+footer {
+  margin-top: 3em;
+  text-align: center;
+  color: var(--text-color);
+  opacity: 0.7;
+}

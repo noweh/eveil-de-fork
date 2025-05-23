@@ -1,0 +1,25 @@
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+{{ with .Site.Params.description }}
+<meta name="description" content="{{ . }}" />
+{{ end }}
+
+<title>
+  {{ if .IsHome }} {{ .Site.Title }} {{ else }} {{ .Title }} - {{ .Site.Title }}
+  {{ end }}
+</title>
+
+{{ $style := resources.Get "css/main.scss" | css.Sass | resources.Fingerprint }}
+<link
+  rel="stylesheet"
+  href="{{ $style.Permalink }}"
+  integrity="{{ $style.Data.Integrity }}"
+/>
+
+{{ $customStyle := resources.Get "css/custom.css" | resources.Fingerprint }}
+<link
+  rel="stylesheet"
+  href="{{ $customStyle.Permalink }}"
+  integrity="{{ $customStyle.Data.Integrity }}"
+/>

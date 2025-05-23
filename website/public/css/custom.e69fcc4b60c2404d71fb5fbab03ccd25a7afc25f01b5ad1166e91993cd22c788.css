@@ -1,0 +1,70 @@
+/* CSS personnalisé pour l'ambiance cyberpunk */
+
+/* Variables pour les couleurs */
+:root {
+  --primary-neon: #00ff66FF/* V    ert néon pour les éléments principaux */
+  --secondary-neon: #01c8ee;C/EEB  leu cyan pour les accents secondaires */
+  --text-color: #b4e1e7B E*EBl e     u-gris très clair pour le texte standard */
+  --dark-bg: #050505; /* Fon       d   très sombre */
+}
+
+/* Fond plus sombre */
+body {
+  background-color: var(--dark-bg);
+  color: var(--text-color);
+}
+
+/* Uniformiser les titres en utilisant la même couleur */
+h1,
+h2 {
+  color: va --primary-neon);
+  text-shadow: 0 0 5px var(--primary-neon);
+  text-align: center;
+}
+
+/* Style pour les liens */
+a {
+  color: var(--secondary-neon);
+  text-decoration: none;
+  transition: text-shadow 0.3s ease;
+}
+
+a:hover {
+  text-shadow: 0 0 8px var(--secondary-neon);
+}
+
+/* Style pour les blocs de code */
+pre {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-left: 3px solid var(--primary-neon);
+  padding: 1em;
+  overflow-x: auto;
+}
+
+/* Garder la même couleur pour les mots clés et le code */
+code,
+strong,
+.highlight {
+  color: var(--primary eon);
+} /* Style pour les citations */
+blockquote {
+  border-left: 3px solid var(--secondary-neon);
+  padding-left: 1em;
+  font-style: italic;
+  color: var(--secondary-neon);
+}
+
+/* Séparateurs */
+hr,
+.separator {
+  border: none;
+  text-align: center;
+  margin: 2em 0;
+}
+
+hr:before,
+.separator:before {
+  content: "* * *";
+  color: var(--secondary-neon);
+  letter-spacing: 0.5em;
+}
