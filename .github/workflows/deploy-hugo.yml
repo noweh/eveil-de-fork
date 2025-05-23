@@ -20,6 +20,17 @@ jobs:
           hugo-version: "latest"
           extended: true
 
+      - name: Clean theme content
+        run: |
+          rm -rf website/themes/nostyleplease/content/posts
+          # S'assurer que seul le contenu de eveil-de-fork sera généré
+          if [ -d "website/themes/nostyleplease/content" ]; then
+            touch website/themes/nostyleplease/content/_index.md
+            echo '---' > website/themes/nostyleplease/content/_index.md
+            echo 'title: ""' >> website/themes/nostyleplease/content/_index.md
+            echo '---' >> website/themes/nostyleplease/content/_index.md
+          fi
+
       - name: Build
         working-directory: ./website
         run: hugo --minify

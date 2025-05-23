@@ -3,6 +3,9 @@ languageCode = 'fr-FR'
 title = 'L\éveil de \/Fork'
 theme = "nostyleplease"
 
+# Ignorer les contenus d'exemple du thème
+ignoreFiles = ["themes/nostyleplease/content/.*"]
+
 [params]
   description = "Une histoire de cyberfantasy"
   
