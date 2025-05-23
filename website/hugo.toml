@@ -1,4 +1,4 @@
-baseURL = 'https://noweh.github.io/eveil-de-fork'
+baseURL = 'https://noweh.github.io/'
 languageCode = 'fr-FR'
 title = 'L\éveil de \/Fork'
 theme = "nostyleplease"
