@@ -1,6 +1,6 @@
 baseURL = 'https://noweh.github.io/eveil-de-fork'
 languageCode = 'fr-FR'
-title = 'L\éveil de \/Fork'
+title = "L'éveil de \\/Fork"
 theme = "nostyleplease"
 
 # Ignorer complètement les contenus d'exemple du thème
