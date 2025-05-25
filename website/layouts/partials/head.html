@@ -4,6 +4,41 @@
 {{ with .Site.Params.description }}
 <meta name="description" content="{{ . }}" />
 {{ end }}
+<meta name="author" content="Julien SCHMITT" />
+<meta name="robots" content="index, follow" />
+
+<meta
+  property="og:type"
+  content="{{ if .IsPage }}article{{ else }}website{{ end }}"
+/>
+<meta property="og:url" content="{{ .Permalink }}" />
+<meta
+  property="og:title"
+  content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}"
+/>
+<meta
+  property="og:description"
+  content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}"
+/>
+<meta property="og:site_name" content="{{ .Site.Title }}" />
+<meta property="og:locale" content="fr_FR" />
+<meta property="og:type" content="book" />
+<meta property="book:author" content="Julien SCHMITT" />
+<meta property="book:tag" content="cyberfantasy,science-fiction,web fiction" />
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:url" content="{{ .Permalink }}" />
+<meta
+  name="twitter:title"
+  content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}"
+/>
+<meta
+  name="twitter:description"
+  content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}"
+/>
+
+<link rel="canonical" href="{{ .Permalink }}" />
 
 <title>
   {{ if .IsHome }} {{ .Site.Title }} {{ else }} {{ .Title }} - {{ .Site.Title }}
@@ -37,4 +72,38 @@
   gtag("js", new Date());
 
   gtag("config", "G-0JRYX6HS3X");
+</script>
+
+<script type="application/ld+json">
+  "@context": "https://schema.org",
+  "@type": "CreativeWork",
+  "name": "{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}",
+  "headline": "L'éveil de \/Fork",
+  "author": {
+    "@type": "Person",
+    "name": "Julien SCHMITT"
+  },
+  "genre": "Cyberfantasy",
+  "description": "{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}",
+  "inLanguage": "fr-FR",
+  "url": "{{ .Permalink }}",
+  "datePublished": "2025-05-20",
+  "publisher": {
+    "@type": "Person",
+    "name": "Julien SCHMITT"
+  },
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "{{ .Site.Title }}",
+    "url": "{{ .Site.BaseURL }}"
+  }
+   {{ if .IsPage }}
+  ,"hasPart": {
+    "@type": "WebPageElement",
+    "isPartOf": {
+      "@id": "{{ .Site.BaseURL }}"
+    },
+    "name": "{{ .Title }}"
+  }
+  {{ end }}
 </script>
