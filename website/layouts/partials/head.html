@@ -75,35 +75,37 @@
 </script>
 
 <script type="application/ld+json">
-  "@context": "https://schema.org",
-  "@type": "CreativeWork",
-  "name": "{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}",
-  "headline": "L'éveil de \/Fork",
-  "author": {
-    "@type": "Person",
-    "name": "Julien SCHMITT"
-  },
-  "genre": "Cyberfantasy",
-  "description": "{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}",
-  "inLanguage": "fr-FR",
-  "url": "{{ .Permalink }}",
-  "datePublished": "2025-05-20",
-  "publisher": {
-    "@type": "Person",
-    "name": "Julien SCHMITT"
-  },
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "{{ .Site.Title }}",
-    "url": "{{ .Site.BaseURL }}"
-  }
-   {{ if .IsPage }}
-  ,"hasPart": {
-    "@type": "WebPageElement",
-    "isPartOf": {
-      "@id": "{{ .Site.BaseURL }}"
+  {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}",
+    "headline": "L'éveil de \/Fork",
+    "author": {
+      "@type": "Person",
+      "name": "Julien SCHMITT"
     },
-    "name": "{{ .Title }}"
+    "genre": "Cyberfantasy",
+    "description": "{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}",
+    "inLanguage": "fr-FR",
+    "url": "{{ .Permalink }}",
+    "datePublished": "2025-05-20",
+    "publisher": {
+      "@type": "Person",
+      "name": "Julien SCHMITT"
+    },
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "{{ .Site.Title }}",
+      "url": "{{ .Site.BaseURL }}"
+    }
+     {{ if .IsPage }}
+    ,"hasPart": {
+      "@type": "WebPageElement",
+      "isPartOf": {
+        "@id": "{{ .Site.BaseURL }}"
+      },
+      "name": "{{ .Title }}"
+    }
+    {{ end }}
   }
-  {{ end }}
 </script>
