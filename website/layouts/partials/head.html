@@ -26,6 +26,17 @@
 <meta property="book:author" content="Julien SCHMITT" />
 <meta property="book:tag" content="cyberfantasy,science-fiction,web fiction" />
 
+<meta property="og:image" content="{{ "icons/android-chrome-512x512.png" |
+absURL }}" />
+<meta property="og:image:width" content="512" />
+<meta property="og:image:height" content="512" />
+<meta property="og:image:type" content="image/png" />
+<meta
+  property="og:image:alt"
+  content="L'éveil de \/Fork - Une histoire de cyberfantasy"
+/>
+<meta name="theme-color" content="#1a1a2e" />
+
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:url" content="{{ .Permalink }}" />
@@ -37,6 +48,8 @@
   name="twitter:description"
   content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}"
 />
+<meta name="twitter:image" content="{{ "icons/android-chrome-512x512.png" |
+absURL }}" />
 
 <link rel="canonical" href="{{ .Permalink }}" />
 
