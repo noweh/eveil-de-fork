@@ -8,12 +8,28 @@ page_number: 3
 
 Puis, le grondement reprend. **G²C** s’avance, juge final et implacable, dévorant tout ce qui est inutile, tout ce qui dévie de ses lois altérées. Un faisceau incandescent fuse vers **\\/Fork**, prêt à l’effacer.
 
------------------------------------------------- **Secteur-347** ---------------------------------------------------------\
-->[][][][][] ->->->->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[]->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;……………………\
-[]->[][]->[]->[]->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**\\/**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;->->&nbsp;&nbsp;……………………\
-[][]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;..**G²C**……………\
-[][][]->[][][][]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;->->->->->->->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[][][][]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;……………………\
---------------------------------------------------- **ENDOF-347** ------------------------------------------------------------
+<div class="sector-block">
+  <div class="sector-content">
+    <div class="sector-line">
+      ━━━━━━━━━━━━━━━━━━━━━━━━ <strong>Secteur-347</strong> ━━━━━━━━━━━━━━━━━━━━━━━━
+    </div>
+    <div class="sector-line">
+      ->[][][][][]&nbsp;->->->->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[]->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;……………………
+    </div>
+    <div class="sector-line">
+      []->[][]->[]->[]->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>\/</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;->->&nbsp;&nbsp;……………………
+    </div>
+    <div class="sector-line">
+      [][]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;..<strong>G²C</strong>……………
+    </div>
+    <div class="sector-line">
+      [][][]->[][][][]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;->->->->->->->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[][][][]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;……………………
+    </div>
+    <div class="sector-line">
+      ━━━━━━━━━━━━━━━━━━━━━━━━ <strong>ENDOF-347</strong> ━━━━━━━━━━━━━━━━━━━━━━━━
+    </div>
+  </div>
+</div>
 
 Mais au moment de l’impact, quelque chose se produit. Une déchirure invisible altère la réalité,
 un glitch. **\\/Fork** est éjecté hors du système, projeté dans un vide numérique.
