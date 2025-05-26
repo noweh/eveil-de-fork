@@ -51,7 +51,7 @@ title: "L'éveil de \\/Fork"
 
 Dans les profondeurs d’un système informatique abandonné, quelque chose s’éveille.
 
-**\\/Fork**, une anomalie née dans un monde numérique fracturé, , erre entre les factions **->Serial** et **[]Array**, en guerre pour le contrôle du système.
+**\\/Fork**, une anomalie née dans un monde numérique fracturé, erre entre les factions **->Serial** et **[]Array**, en guerre pour le contrôle du système.
 Poursuivi par le redoutable **G²C (Garbage Collector)**, il entame un voyage à travers des fragments de mémoire, des fonctions oubliées… et peut-être, vers lui-même.
 
 ## Chapitres
