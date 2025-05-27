@@ -3,10 +3,9 @@
 {{ $class := .Get "class" | default "" }}
 {{ $width := .Get "width" | default "" }}
 {{ $height := .Get "height" | default "" }}
-{{ $quality := .Get "quality" | default "85" }}
+{{ $quality := .Get "quality" | default "60" }}
 {{ $title := .Get "title" | default "" }}
 
-<!-- Nettoyer le chemin src pour Hugo resources -->
 {{ $cleanSrc := $src }}
 {{ if hasPrefix $src "/" }}
   {{ $cleanSrc = strings.TrimPrefix "/" $src }}
@@ -15,12 +14,11 @@
 {{ $image := resources.Get $cleanSrc }}
 {{ if $image }}
   {{ $processed := $image }}
-  
-  <!-- Resize seulement si width est spécifié et valide -->
+
   {{ if $width }}
     {{ $cleanWidth := $width | replaceRE "[^0-9]" "" }}
     {{ if and $cleanWidth (gt (int $cleanWidth) 0) }}
-      {{ $processed = $image.Resize (printf "%sx q%s" $cleanWidth $quality) }}
+      {{ $processed = $image.Resize (printf "%sx webp q%s" $cleanWidth $quality) }}
     {{ end }}
   {{ end }}
   
@@ -34,7 +32,6 @@
     loading="lazy"
   />
 {{ else }}
-  <!-- Fallback pour les images dans static/ -->
   <img
     src="{{ $src | relURL }}"
     alt="{{ $alt }}"
