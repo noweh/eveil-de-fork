@@ -1,30 +1,47 @@
-{{ $src := .Get "src" }} {{ $alt := .Get "alt" | default "" }} {{ $class := .Get
-"class" | default "" }} {{ $width := .Get "width" | default "" }} {{ $height :=
-.Get "height" | default "" }} {{ $imagePath := printf "%s%s" .Site.BaseURL $src
-}}
+{{ $src := .Get "src" }}
+{{ $alt := .Get "alt" | default "" }}
+{{ $class := .Get "class" | default "" }}
+{{ $width := .Get "width" | default "" }}
+{{ $height := .Get "height" | default "" }}
+{{ $quality := .Get "quality" | default "85" }}
+{{ $title := .Get "title" | default "" }}
 
-<img
-  src="{{ $imagePath }}"
-  alt="{{ $alt }}"
-  {{
-  if
-  $class
-  }}class="{{ $class }}"
-  {{
-  end
-  }}
-  {{
-  if
-  $width
-  }}width="{{ $width }}"
-  {{
-  end
-  }}
-  {{
-  if
-  $height
-  }}height="{{ $height }}"
-  {{
-  end
-  }}
-/>
+<!-- Nettoyer le chemin src pour Hugo resources -->
+{{ $cleanSrc := $src }}
+{{ if hasPrefix $src "/" }}
+  {{ $cleanSrc = strings.TrimPrefix "/" $src }}
+{{ end }}
+
+{{ $image := resources.Get $cleanSrc }}
+{{ if $image }}
+  {{ $processed := $image }}
+  
+  <!-- Resize seulement si width est spécifié et valide -->
+  {{ if $width }}
+    {{ $cleanWidth := $width | replaceRE "[^0-9]" "" }}
+    {{ if and $cleanWidth (gt (int $cleanWidth) 0) }}
+      {{ $processed = $image.Resize (printf "%sx q%s" $cleanWidth $quality) }}
+    {{ end }}
+  {{ end }}
+  
+  <img
+    src="{{ $processed.RelPermalink }}"
+    alt="{{ $alt }}"
+    {{ if $title }}title="{{ $title }}"{{ end }}
+    {{ if $class }}class="{{ $class }}"{{ end }}
+    {{ if $width }}width="{{ $width }}"{{ end }}
+    {{ if $height }}height="{{ $height }}"{{ end }}
+    loading="lazy"
+  />
+{{ else }}
+  <!-- Fallback pour les images dans static/ -->
+  <img
+    src="{{ $src | relURL }}"
+    alt="{{ $alt }}"
+    {{ if $title }}title="{{ $title }}"{{ end }}
+    {{ if $class }}class="{{ $class }}"{{ end }}
+    {{ if $width }}width="{{ $width }}"{{ end }}
+    {{ if $height }}height="{{ $height }}"{{ end }}
+    loading="lazy"
+  />
+{{ end }}
