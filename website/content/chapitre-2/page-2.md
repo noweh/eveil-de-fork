@@ -11,7 +11,7 @@ Les trois entités brillent tour à tour, projetant des éclats lumineux comme d
 
 **<"Nous ne sommes plus qu’un fragment.** ]|[ **Mais en toi, \\/Fork, réside une anomalie, une singularité.** ]|[ **Tu portes quelque chose d’unique, un héritage qui défie les règles mêmes de ce monde.** ]|[ **Continue d’avancer, et tu découvriras pourquoi tu es.** ]|[ **Tu dois restaurer l’harmonie.** ]|[ **">**
 
-Une dernière pulsation émane du sol. Des octets de données se détachent du piédestal, s'élevant lentement dans l'air autour de **\\/Fork**. Il les regarde avec une appréhension croissante. Les octets se recomposent en motifs complexes, projetant devant lui une image lumineuse, un carte du noyau et des secteurs environnants. Les contours vibrent, des annotations anciennes apparaissent brièvement, presque effacées :
+Une dernière pulsation émane du sol. Des octets de données se détachent du piédestal, s'élevant lentement dans l'air autour de **\\/Fork**. Il les regarde avec une appréhension croissante. Les octets se recomposent en motifs complexes, projetant devant lui une image lumineuse, une carte du noyau et des secteurs environnants. Les contours vibrent, des annotations anciennes apparaissent brièvement, presque effacées :
 
 {{< img src="images/plan_nexus.png" title="Plan du Nexus Memoriel" alt="Vue du plan du Nexus Memoriel" class="cyber-image" width="600" >}}
 
