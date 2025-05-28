@@ -7,7 +7,7 @@
 > **A cyberfantasy web fiction where code becomes consciousness**
 
 <div align="center">
-  <img src="./website/static/images/garbage_collector.png" alt="Garbage Collector" width="500"/>
+  <img src="./website/assets/images/garbage_collector.png" alt="Garbage Collector" width="500"/>
 </div>
 
 This is a personal creative project. While the story content is not open for contributions, technical improvements and bug fixes are welcome.
