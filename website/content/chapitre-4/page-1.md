@@ -24,6 +24,8 @@ Des symboles gravés sur leur surface s’effacent et réapparaissent en boucle 
 
 **<"** ++ **Jadis... on était fiers. Objets... Membres de la faction Array... On prônait la liberté... la flexibilité** ++ **Traverser ce passage... un jeu d’enfant.** ++ **">**
 
+**<"** -- **Avant… quelqu’un maintenait l’ordre… jusqu’à ce qu’il parte.** -- **">**
+
 **\\/Fork** hésite.\
 **<"Qui êtes vous ?**\\/ **Qu'est-ce qui s'est passé ?**\\/ **">**
 

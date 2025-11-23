@@ -15,6 +15,19 @@ Il reste là, immobile, son processus tentant de reconstruire un semblant d’in
   ✦ &nbsp; ✦
 </p>
 
-La pièce est figée dans une étrangeté silencieuse. **\\/Fork** se redresse lentement, tentant de rassembler ses éléments dispersés. Chaque mouvement est une épreuve, son code réorganisé mais bancal, tremblant sous l'impact des dernières secousses. Autour de lui, les murs sont d’une blancheur clinique, uniformes, dénués de toute personnalité. Rien ici ne semble inviter à l’exploration, et pourtant il n'a d'autre choix que d’avancer. Il fait quelques pas hésitants. Les murs, froids et immuables, semblent l'observer, presque inertes. À chaque mouvement, une étrange sensation de déjà-vu envahit **\\/**, comme si l'espace se repliait sur lui-même, répétant sans fin un modèle rigide. Chaque virage, chaque ouverture semble mener à la même chose : un couloir blanc, sans fenêtre ni porte, une répétition du précédent. Le tout est parfaitement fonctionnel, mais ecrasant, comme un espace de stockage oublié, une pile d'attente sans fin.
+La pièce est figée dans une étrangeté silencieuse. **\\/Fork** se redresse lentement, tentant de rassembler ses éléments dispersés. Chaque mouvement est une épreuve, son code réorganisé mais bancal, tremblant sous l'impact des dernières secousses. Autour de lui, les murs sont d’une blancheur clinique, uniformes, dénués de toute personnalité. Rien ici ne semble inviter à l’exploration, et pourtant il n'a d'autre choix que d’avancer.
+
+Il fait quelques pas hésitants. Les murs, froids et immuables, semblent l'observer, presque inertes.  À un moment, en passant devant un pan de mur incliné, une micro-anomalie attire son attention. Une inscription infinitésimale, presque effacée, se matérialise un battement avant de disparaître.
+Une ligne de commentaire, brisée par le temps :
+
+```shell
+// @todo: fixme...
+```
+
+Puis plus rien.
+
+Une trace ancienne. Trop ancienne pour qu’il en comprenne le sens.
+
+À chaque mouvement, une étrange sensation de déjà-vu envahit **\\/**, comme si l'espace se repliait sur lui-même, répétant sans fin un modèle rigide. Chaque virage, chaque ouverture semble mener à la même chose : un couloir blanc, sans fenêtre ni porte, une répétition du précédent. Le tout est parfaitement fonctionnel, mais ecrasant, comme un espace de stockage oublié, une pile d'attente sans fin.
 
 {{< page_nav >}}

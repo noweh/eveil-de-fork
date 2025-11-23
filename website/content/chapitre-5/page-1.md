@@ -1,5 +1,5 @@
 ---
-title: "L'éveil de \\/Fork - Destruction binaire"
+title: "L'éveil de \\/Fork - Chapitre 5"
 subtitle: "Destruction binaire"
 date: 2025-11-23
 weight: 8
