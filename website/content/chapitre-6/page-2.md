@@ -44,14 +44,13 @@ Et ce qui l’étonne le plus : il n’entend plus **G²C**.
 Plus un tir. Plus un grondement. Juste un immense silence pesant, presque étouffant. **\\/** avance d’un pas incertain.\
 Ses pas résonnent étrangement, comme si l’écho-même était fracturé. Par endroits, des blocs flottent en apesanteur, immobilisés dans des positions impossibles. Le Palindrome semble avoir subi une réécriture sauvage. Une réorganisation totale.
 
-<"Qu’est-ce\/qui…\/s’est\/passé\/?"> murmure-t-il.
+**<"Qu’est-ce**\\/**qui…**\\/**s’est**\\/**passé ?">** murmure-t-il.
 
 Il observe les ruines tout autour de lui. Son esprit cherche une cause logique : **G²C** aurait pu déclencher une surcharge, le labyrinthe pourrait avoir riposté, une boucle infinie aurait pu s’effondrer d’un coup.
 
 Oui, C’est sûrement ça. Le système est instable. Tout se dérègle. Une vibration ténue persiste dans son noyau, un battement décalé qu’il peine à ignorer. Il pose une main sur sa tempe, confuse.
 
-« Je dois… continuer. »
-<"Je\/​dois...\/​continuer.">
+**<"Je**\\/**&#8203;dois...**\\/**&#8203;continuer.">**
 
 Il baisse les yeux. Sous ses pieds, le sol porte une fine marque brûlée, un tracé sinueux qu’il n’avait jamais vu auparavant. Un motif presque organique, comme la trace d’une onde.
  
