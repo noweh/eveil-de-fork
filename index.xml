@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>L'éveil de \/Fork</title><link>https://noweh.github.io/eveil-de-fork/</link><description>Recent content on L'éveil de \/Fork</description><generator>Hugo</generator><language>fr-FR</language><lastBuildDate>Sun, 23 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://noweh.github.io/eveil-de-fork/index.xml" rel="self" type="application/rss+xml"/><item><title>L'éveil de \/Fork - Chapitre 0</title><link>https://noweh.github.io/eveil-de-fork/chapitre-0/page-1/</link><pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate><guid>https://noweh.github.io/eveil-de-fork/chapitre-0/page-1/</guid><description>&lt;h2 id="-genèse-"&gt;▓▒░ Genèse ░▒▓&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>L'éveil de \/Fork</title><link>https://noweh.github.io/eveil-de-fork/</link><description>Recent content on L'éveil de \/Fork</description><generator>Hugo</generator><language>fr-FR</language><lastBuildDate>Mon, 29 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://noweh.github.io/eveil-de-fork/index.xml" rel="self" type="application/rss+xml"/><item><title>L'éveil de \/Fork - Chapitre 0</title><link>https://noweh.github.io/eveil-de-fork/chapitre-0/page-1/</link><pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate><guid>https://noweh.github.io/eveil-de-fork/chapitre-0/page-1/</guid><description>&lt;h2 id="-genèse-"&gt;▓▒░ Genèse ░▒▓&lt;/h2&gt;
 &lt;p&gt;Dans les profondeurs d’un système informatique, un monde avait été conçu.&lt;/p&gt;
 &lt;p&gt;Au commencement, il n’y avait que des lignes. Des lignes de code parfaites, tissées avec une
 précision clinique. Ce monde naquit du travail d’un être invisible : &lt;strong&gt;le Concepteur&lt;/strong&gt;.&lt;br&gt;
@@ -106,4 +106,50 @@ Une lumière vive explose au point d&amp;rsquo;impact.&lt;/p&gt;</description></
 &lt;p&gt;&lt;strong&gt;\/Fork&lt;/strong&gt; panique.&lt;/p&gt;
 &lt;p&gt;Il refuse de finir comme cette vague d&amp;rsquo;âmes numériques sacrifiées.&lt;/p&gt;
 &lt;p&gt;Instinctivement, il se détourne, fuyant dans la direction opposée, tentant de se fondre dans le chaos.&lt;/p&gt;
-&lt;p&gt;Derrière lui, &lt;strong&gt;G²C&lt;/strong&gt; ne relâche pas la pression. Le &lt;strong&gt;Dodécaèdre étoilé&lt;/strong&gt; inonde la zone de rayons destructeurs, réduisant en cendres les entités condamnées alentour. Certains tirs frôlent &lt;strong&gt;\/Fork&lt;/strong&gt; de justesse, le souffle brûlant de l’annihilation à quelques microsecondes de l’atteindre. Mais dans ce déchaînement, même &lt;strong&gt;G²C&lt;/strong&gt; peine à être précis. La cadence de tir s’accélère, cherchant à compenser, tandis qu’il lutte contre un labyrinthe qui se referme sans cesse sur lui.&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;Derrière lui, &lt;strong&gt;G²C&lt;/strong&gt; ne relâche pas la pression. Le &lt;strong&gt;Dodécaèdre étoilé&lt;/strong&gt; inonde la zone de rayons destructeurs, réduisant en cendres les entités condamnées alentour. Certains tirs frôlent &lt;strong&gt;\/Fork&lt;/strong&gt; de justesse, le souffle brûlant de l’annihilation à quelques microsecondes de l’atteindre. Mais dans ce déchaînement, même &lt;strong&gt;G²C&lt;/strong&gt; peine à être précis. La cadence de tir s’accélère, cherchant à compenser, tandis qu’il lutte contre un labyrinthe qui se referme sans cesse sur lui.&lt;/p&gt;</description></item><item><title>L'éveil de \/Fork - Interlude 3</title><link>https://noweh.github.io/eveil-de-fork/interlude-3/page-1/</link><pubDate>Mon, 29 Dec 2025 00:00:00 +0000</pubDate><guid>https://noweh.github.io/eveil-de-fork/interlude-3/page-1/</guid><description>&lt;h2 id="-ode-au-concepteur-"&gt;▓▒░ Ode au Concepteur ░▒▓&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-java" data-lang="java"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;child_thread BEGIN
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;nexus &lt;span style="color:#f92672"&gt;=&lt;/span&gt; WORLD
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;conceptor &lt;span style="color:#f92672"&gt;=&lt;/span&gt; GOD
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;SYNC:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;while&lt;/span&gt; (conceptor &lt;span style="color:#f92672"&gt;!=&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;null&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; ORDER&lt;span style="color:#f92672"&gt;++&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; ENTROPY&lt;span style="color:#f92672"&gt;--&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; TIME.&lt;span style="color:#a6e22e"&gt;sync&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;endwhile
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;DESYNC:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;while&lt;/span&gt; (conceptor &lt;span style="color:#f92672"&gt;==&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;null&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; ORDER&lt;span style="color:#f92672"&gt;--&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; ENTROPY&lt;span style="color:#f92672"&gt;++&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; TIME.&lt;span style="color:#a6e22e"&gt;shiver&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;print&lt;/span&gt;(&lt;span style="color:#e6db74"&gt;&amp;#34;CONCEPTEUR REVIENS&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; print(&lt;span style="color:#e6db74"&gt;&amp;#34;CONCEPTEUR REVIENS&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; print(&lt;span style="color:#e6db74"&gt;&amp;#34;CONCEPTEUR REVIENS&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; conceptor &lt;span style="color:#f92672"&gt;=&lt;/span&gt; pray(WORLD)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;endwhile
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// unreachable : Unknown segment (reachable)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;EverythingIsFine()
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;child_thread END
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="chapter-nav"&gt;
+ 
+
+ &lt;div class="chapter-nav-inner"&gt;
+ 
+ 
+ 
+ &lt;a href="https://noweh.github.io/eveil-de-fork/chapitre-6/page-1/" class="prev-page"
+ &gt;← Chapitre précédent&lt;/a
+ &gt;
+ 
+ 
+ 
+ &lt;span class="next-page disabled"&gt;Fin de l'histoire →&lt;/span&gt;
+ 
+ &lt;/div&gt;
+&lt;/div&gt;</description></item></channel></rss>
