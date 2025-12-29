@@ -1,7 +1,7 @@
 ---
 title: "Chapitre 6 - Page 2"
 date: 2025-11-23
-weight: 8
+weight: 9
 chapter_page: true
 page_number: 2
 ---
