@@ -2,7 +2,7 @@
 title: "L'éveil de \\/Fork - Chapitre 6"
 subtitle: "Fuite de données"
 date: 2025-11-23
-weight: 8
+weight: 9
 chapter_start: true
 ---
 
